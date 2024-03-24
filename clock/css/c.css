@@ -1,0 +1,26 @@
+ <style>
+        body{ 
+           background-size: 100% 100vh;
+           display: flex;
+           justify-content: center;
+           align-items: center;
+        }
+        #container
+        {
+          text-align: center;
+          position: relative;
+          top: 50px;
+          width: 60vw;
+          height: 80vh;
+          background-color: rgba(128,128,128,0.445);
+           border-radius: 10px;
+           box-shadow: 5px 5px 10px black;
+           transition: all 0.5s;
+        }
+        #container:hover{
+          background-color: transparent;
+          border: 30px groove brown;
+          box-shadow: 35px 35px 0px black,-35px -35px 0px red,-35px 35px 0px yellow,35px -35px 0px yellowgreen ;
+        }
+           
+    </style>
